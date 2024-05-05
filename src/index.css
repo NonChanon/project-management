@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.primaryBtn {
+  background-color: indigo;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px;
+  border: 0px;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.secondaryBtn {
+  background-color: white;
+  color: indigo;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px;
+  border: 1px solid;
+  border-color: indigo;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.delBtn {
+  background-color: red;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.delOutlineBtn {
+  background-color: white;
+  color: red;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: red;
+  font-weight: 500;
+  cursor: pointer;
+  width: fit-content;
+}

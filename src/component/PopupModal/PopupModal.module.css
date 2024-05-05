@@ -1,0 +1,59 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalStyles {
+  width: 400px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-height: 300px;
+  margin: 0 0 4rem 0;
+  position: relative;
+  min-width: 300px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  justify-self: center;
+}
+
+.topic {
+  font-size: larger;
+  font-weight: 600;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+form label {
+  font-size: small;
+}
+
+form input,
+textarea {
+  padding: 10px 10px;
+  margin: 0 0 20px 0;
+  border-radius: 5px;
+  border: 1px solid;
+  width: 100%;
+  resize: none;
+}
+
+.btnFormat {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}

@@ -1,0 +1,45 @@
+.tableContent {
+  border-collapse: collapse;
+  margin: 25px 0;
+  overflow: hidden;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tableContent th {
+  min-width: 130px;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.tableContent thead tr {
+  background-color: indigo;
+  color: white;
+}
+
+.tableContent td {
+  padding: 15px;
+}
+
+.tableContent tbody tr:nth-of-type(even) {
+  background-color: #f9f9f9;
+}
+
+.tableContent tbody tr:last-of-type {
+  border-bottom: 2px solid indigo;
+}
+
+.action {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  font-weight: 500;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 1.5;
+}
